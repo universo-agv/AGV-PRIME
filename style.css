@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #0b1f3a;
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+
+.logo {
+  width: 120px;
+}
+
+.progress {
+  height: 6px;
+  background: #1e3a8a;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.bar {
+  height: 100%;
+  width: 33%;
+  background: #fbbf24;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.step {
+  display: none;
+}
+
+.step.active {
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #fbbf24;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.cars {
+  width: 400px;
+  margin-top: 20px;
+}
