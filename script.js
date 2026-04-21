@@ -37,7 +37,7 @@ form.addEventListener("submit", function(e) {
     btn.disabled = true;
 
     // --- IMPORTANTE: COLOQUE O SEU ID DO FORMULÁRIO ABAIXO ---
-    const FORM_URL = "https://docs.google.com/forms/d/e/SEU_FORM_ID_AQUI/formResponse";
+    const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeV2EQtBREGEO0V-VUbtTYeXnWvLM-K3H3hE31aqjdsOsdVDA/viewform";
     
     const formData = new URLSearchParams();
     // Troque os números entry.XXXX pelas IDs reais da sua planilha
